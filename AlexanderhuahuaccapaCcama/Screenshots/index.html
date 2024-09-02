@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mi primer proyecto </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        CHUNK BASE</h1>
+    <form >
+        <label>Sedd</label>
+        <input id="numeroInput"  pattern="[0-9]+" type="text" placeholder="225659841864..." title="Solo se permiten números y letras" required />
+        <button type="button" onclick="validaSeed()">Validar</button>
+    <script>
+    function validaSeed() {
+        const input = document.getElementById('numeroInput');
+        const pattern = /^[0-9]+$/;
+
+        if (!pattern.test(input.value)) {
+            alert('El valor ingresado es incorrecto. Solo se permiten números.');
+            input.value = ''; // Opcional: Limpia el campo si el valor es incorrecto
+        } else {
+            alert('Valor válido.');
+        }
+    }
+    </script>
+        <label>Version</label>
+        <input  id="varidarversion" type="text" pattern="[0-9]" placeholder="1.21..." title="Solo se permiten números " required />
+        <button type="button" onclick="validarVERSION1()">Validar</button>
+
+    <script>
+    function validarVERSION1() {
+        const input = document.getElementById('varidarversion');
+        const pattern = /^[0-9]+$/;
+
+        if (!pattern.test(input.value)) {
+            alert('El valor ingresado es incorrecto. Solo se permiten números.');
+            input.value = ''; // Opcional: Limpia el campo si el valor es incorrecto
+        } else {
+            alert('Valor válido.');
+        }
+    }
+    </script>
+        <label>Dimension</label>
+        <input id="validarDimension"  type="text"  pattern="[A-Za-z]" placeholder=" END...NEDERT.." title="Solo se permiten letras" required />
+        <button type="button" onclick="validarDIMEN1()">Validar</button>
+
+    <script>
+    function validarDIMEN1() {
+        const input = document.getElementById('validarDimension');
+        const pattern = /^[A-Za-z]+$/;
+
+        if (!pattern.test(input.value)) {
+            alert('El valor ingresado es incorrecto. Solo se permiten números.');
+            input.value = ''; // Opcional: Limpia el campo si el valor es incorrecto
+        } else {
+            alert('Valor válido.');
+        }
+    }
+    </script>
+        <hr>
+        <label>Edition</label>
+        <input id="vaidaredition"  type="text"  pattern="[A-Za-z]" placeholder="1.21..." title="Solo se permiten números" required />
+        <button type="button" onclick="validareDITON1()">Validar</button>
+
+    <script>
+    function validareDITON1() {
+        const input = document.getElementById('vaidaredition');
+        const pattern = /^[A-Za-z]+$/;
+
+        if (!pattern.test(input.value)) {
+            alert('El valor ingresado es incorrecto. Solo se permiten números.');
+            input.value = ''; // Opcional: Limpia el campo si el valor es incorrecto
+        } else {
+            alert('Valor válido.');
+        }
+    }
+    </script>
+
+    <button class="green-button"  onclick="window.location.href='file:///C:/Users/Datos/Downloads/tarea_afqdwd16knn7/html/AlexanderhuahuaccapaCcama/2da%20pagina%20web/index.html#inicio';">
+        <h1>CREATE MAP</h1>
+    </button>
+
+        <pre>
+            <h2>ᒷᓭᒣ𝙹॥ ᓭ¦ᒷᒲⅱ∷ᒷ 𝙹ʖᓭᒷ∷⍊ᖋリ⌥𝙹⎵⎵⎵ リ⚍リᔮᖋ ᒷᓭᒣᖋᓭ ᓭ𝙹ꖎ𝙹 ᒷリ ᒷᓭᒣᒷ ᒲ⚍リ⌥𝙹⎵</h2>
+        </pre>
+       
+    
+    </form>
+    <video width="900" height="360" controls>
+        <source src="Minecraft Caves & Cliffs Update_ Part II - Official Trailer.mp4" type="video/mp4">
+      </video>
+      <pre>
+        <h2>Haz que este San Valentin en Minecraft sea inolvidable con un 
+            toque de misterio y amor oculto en cada rincon de tu mundo 
+            cubico
+        </h2> 
+      </pre>
+      <input type="file">
+</body>
+</html>

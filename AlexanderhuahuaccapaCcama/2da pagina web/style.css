@@ -1,0 +1,124 @@
+body {
+    background-image: url('minecarft2.0\ \(2\).png');
+    background-size: cover;      /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen en la página */
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina el margen por defecto del body */
+}
+.inicio1.ul {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a74242;
+}
+header {
+    background-color: #42b97e;
+    color: #d4d3d3;
+    padding: 2px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #030303; /*letra de la cabezera*/
+    text-decoration: none;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #7cd690;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #6ae27e;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #4e4e4e;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+blockquote {
+    border: 5px solid #050505;
+    margin: 1px auto;
+    padding: 5px 10px;
+    background-color: #aa3939;
+    font-style: italic;
+    max-width: 80%;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    background-color: #d4d3d3;
+    text-align: center
+}
+
+.game-info {
+    text-align: center;
+    margin: 20px;
+}
+.game-info h1 {
+    text-align: center;
+    margin: 20px;
+    background-color: #d4d3d3;
+    text-align: center
+}
+.game-info p {
+    text-align: center;
+    margin: 20px;
+    background-color: #d4d3d3;
+    text-align: center
+}
