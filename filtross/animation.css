@@ -1,0 +1,30 @@
+img{
+    width: 50%;
+    margin: 15 px auto ;
+}
+body {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.japon:hover{
+    filter:blur(2px);
+}
+.gris:hover{
+    filter:grayscale(1);
+}
+.gris:hover{
+    filter:grayscale(90%);
+}
+.lumin:hover{
+    filter: brightness(200%);
+}
+.contraste:hover{
+    filter: contrast(200%);
+}
+.negativo:hover{
+    filter: invert(100%);
+}
+.opcidad:hover{
+    filter: opacity(70%);
+}

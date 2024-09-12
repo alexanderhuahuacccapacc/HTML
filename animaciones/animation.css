@@ -1,0 +1,53 @@
+.box{
+    position: absolute;
+    border: 1 px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    top: 50 px;
+    left: 10px;
+
+    animation-name: cambiarcolor;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 3000ms;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+
+    animation: cambiarcolor 2000ms forwards, otraanimacion 2000ms forwards;
+}
+@keyframes cambiarcolor {
+    0%{
+        background-color: aqua;
+        width: 300 px;
+        height: 300 px;
+    }
+
+    50%{
+
+
+        background-color: rgb(35, 70, 70);
+    }
+
+
+
+    100%{
+        background-color: rgb(161, 137, 106);
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+@keyframes otraanimacion {
+     
+    0%{
+        border-radius: 0%;
+
+    }
+    50%{
+        border-radius: 50%;
+
+    }
+    100%{
+        border-radius: 100%;
+    }
+}

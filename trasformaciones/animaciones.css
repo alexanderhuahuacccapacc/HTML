@@ -1,0 +1,62 @@
+body {
+    background-color: brown;
+}
+.backbox{
+    position: absolute;
+    background-color: rgb(238, 233, 227);
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    left: 150px;
+    box-shadow: 5px 5px 5px 5px black;
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.box{
+    position: absolute;
+    background-color: rgb(189, 172, 152);
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    left: 150px;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 5px;
+}
+
+
+.box:hover{
+    transform: translate(200px);
+}
+
+.backbox1{
+    position: absolute;
+    background-color: rgb(16, 77, 8);
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    top: 1000px;
+    left: 150px;
+    box-shadow: 5px 5px 5px 5px black;
+    z-index: -1;
+}
+
+.box1{
+    position: absolute;
+    background-color: rgb(68, 66, 64);
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    top: 1000px;
+    left: 150px;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 5px;
+}
+
+.box1:hover{
+    transform: rotate(45DEG)
+}
