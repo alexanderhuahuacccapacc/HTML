@@ -1,0 +1,26 @@
+.loginForm {
+    display: flex;
+    background-color: antiquewhite;
+}
+header{
+    background-color: blueviolet;
+    padding: 2px 0;
+    text-align: right;
+}
+body{
+    background-color: aquamarine;
+    
+}
+
+.iniciarsecion{
+    background-color: cadetblue;
+}
+.iniciarsecion:hover{
+    background-color: aqua;
+}
+.tipoingreso{
+    background-color: chocolate;
+}
+.tipoingreso:hover{
+    background-color: burlywood;
+}
